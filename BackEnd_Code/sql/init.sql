@@ -4,7 +4,7 @@ create table chemCAS if not exists
 (
 	CAS_id int not null,
 	Name varchar(45) null,
-	FusionPoint DOUBLE null,
+	FusionPoint double null,
 	BoilingPoint double null,
 	ExistType int null,
 	IsOrganic int null,
